@@ -1,0 +1,45 @@
+@use '../styles/variables';
+
+.infos-bar{
+    padding: 16px 24px;
+    background-color: variables.$Bege1;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: black 0 0 50px 5px;
+    border-radius: 10px;
+    margin-top:132px ;
+
+    &__infos{
+        display: flex;
+        gap: 40px;
+
+        &__item{
+            font-size: 14px;
+            color: variables.$Vermelho1;
+
+            b{
+                font-size: 18px;
+                display: block;
+                color: variables.$Vermelho1;
+            }
+        }
+    }
+
+    @media (max-width: 640px){
+        display: block;
+
+        &__infos{
+            display: block;
+
+            &__item{
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    @media (max-width:1024px) {
+        &__infos{
+            gap: 52px;
+        }
+    }
+}

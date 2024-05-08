@@ -8,20 +8,94 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
-            <img class="hero__logo" src="./images/75-2.png" alt="75 anos">
             <P class="hero__text">
-                O maior EVENTO brasileiro automobilistico do ano
-                começa em 180d 12h 20m 15s
+                O maior CRUZEIRO de modão do SÉCULO
+                começa em <span id="contador"></span>
             </P>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Partida</b>
+                        Recife
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Chegada</b>
+                        Rio Grande Do Sul
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        28/12/2024
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta sua vaga
+                </a>
+            </div>
         </div>
     </header>
-    
 
+<section class="midle-title">
+    <div class="container" data-aos="zoom-out" >
+        <h1 class="midle-title-text">O MAIOR CRUZEIRO QUE JA FOI VISTO NA COSTA BRASILEIRA</h1>
+    </div>
+</section>
 
+    <section class="event event--bruno">
+        <div class="container" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+            <div class="event__detail">
+                <h2 class="event__detail__title">Bruno e Marrone</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusamus cum possimus praesentium, porro quod a officia? Necessitatibus, nihil iusto. Facere voluptate vel saepe, repellendus blanditiis quidem. Praesentium, quae quasi?
+                </p>
+            </div>
+            <img class="event__image" src="https://cdns-images.dzcdn.net/images/artist/8b95cbfaee38cae429e3d7c6a667eb06/500x500.jpg">
+        </div>
+    </section>
+
+    <section class="event event--zeze event--image-left">
+        <div class="container" data-aos="fade-right">
+            <div class="event__detail">
+                <h2 class="event__detail__title">Zeze di Camargo & Luciano</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusamus cum possimus praesentium, porro quod a officia? Necessitatibus, nihil iusto. Facere voluptate vel saepe, repellendus blanditiis quidem. Praesentium, quae quasi?
+                </p>
+            </div>
+            <img class="event__image" src="https://vinils3.s3.amazonaws.com/wp-content/uploads/2022/11/28163755/Zeze-Di-Camargo-Luciano-fazem-show-especial-no-Dia-dos-Namorados-FOTO-DIVULGACAO.jpg" alt="Aniversario de 75 anos do fusca">
+        </div>
+    </section>
+
+    <section class="event event--leonardo">
+        <div class="container" data-aos="fade-left">
+            <div class="event__detail">
+                <h2 class="event__detail__title">Leonardo</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusamus cum possimus praesentium, porro quod a officia? Necessitatibus, nihil iusto. Facere voluptate vel saepe, repellendus blanditiis quidem. Praesentium, quae quasi?
+                </p>
+            </div>
+            <img class="event__image" src="https://uploads.metropoles.com/wp-content/uploads/2023/12/18183059/Leonardo-ABRE-1.jpg" alt="Aniversario de 75 anos do fusca">
+        </div>
+    </section>
+
+    <section class="event event--xitao event--image-left">
+        <div class="container" data-aos="fade-right">
+            <div class="event__detail">
+                <h2 class="event__detail__title">Chitaozinho e Xororo</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusamus cum possimus praesentium, porro quod a officia? Necessitatibus, nihil iusto. Facere voluptate vel saepe, repellendus blanditiis quidem. Praesentium, quae quasi?
+                </p>
+            </div>
+            <img class="event__image"  src="https://yt3.googleusercontent.com/WS9dS_QRVvVlxfYCDRfwCD7yRkqeYumYr6ORk62fklMCWAp0xomejKLt4XVNBTwGGTlFLwql=s900-c-k-c0x00ffffff-no-rj" 
+            alt="chitaozin e chororo">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
